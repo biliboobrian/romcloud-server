@@ -68,9 +68,9 @@ export const SOURCES = {
   kytyps5: { name: 'KytyPS5', releases: github('KytyPS5/KytyPS5'), prereleases: true, platforms: ['windows'], windows: [String.raw`.+-windows-x64\.zip`] },
   cemu: { name: 'Cemu', releases: github('cemu-project/Cemu'), platforms: ['windows'], windows: [String.raw`.+-windows-x64\.zip`] },
   // Android, systèmes sans moteur intégré seulement (3DS, DS, Game Boy : cœurs Citra, melonDS, mGBA…).
-  // Jeux PC (Wine / Proton) : RomCloud PC (android/pc, publié avec RomCloud), Winlator Cmod, Winlator, GameNative.
+  // Jeux PC (Wine / Proton) : RomCloud PC (dépôt romcloud-pc), Winlator Cmod, Winlator, GameNative.
   'romcloud-pc': {
-    name: 'RomCloud PC', releases: github('biliboobrian/romCloud'), platforms: ['android'],
+    name: 'RomCloud PC', releases: github('biliboobrian/romcloud-pc'), platforms: ['android'],
     android: [{ package: 'com.romcloud.wine', asset: String.raw`RomCloud-PC-.*\.apk`, playStore: false }],
   },
   'winlator-cmod': {

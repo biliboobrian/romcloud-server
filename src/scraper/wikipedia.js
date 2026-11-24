@@ -6,7 +6,7 @@ import { pressRating } from './rating.js';
 // image, et informations de Wikidata (développeur, éditeur, date, genre, modes de jeu).
 
 // Politique de Wikimedia : les clients doivent s'identifier.
-const HEADERS = { 'User-Agent': 'RomCloud (https://github.com/biliboobrian/romCloud)' };
+const HEADERS = { 'User-Agent': 'RomCloud (https://github.com/biliboobrian/romcloud-server)' };
 
 /** Mot-clé de recherche et indice « c'est bien un jeu » dans le résumé, par langue. */
 const LANGS = {
